@@ -4,6 +4,8 @@
 //2. add a bin property to our package.json
 //3. install the module globally and you’ll have a working shell command: npm install -g
 
+//tutorial: https://www.sitepoint.com/javascript-command-line-interface-cli-node-js/
+
 const chalk = require('chalk'); //colorizes the output
 const clear = require('clear'); //clears the terminal screen
 const figlet = require('figlet'); //creates ASCII art from text
